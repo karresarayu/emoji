@@ -1,0 +1,49 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: rgb(246, 245, 174);
+}
+
+h1 {
+  font-family: "Comic Sans MS", "Comic Sans", cursive; /* or a similar cute font like "Pacifico" or "Lobster" */
+    font-size: 40px;         /* Adjust font size as needed */
+    font-weight: 700;        /* Bold weight for a cute, playful effect */
+    color: #FFB347;          /* A reddish-yellow color, like a light coral or pastel orange */
+    text-shadow: 1px 1px 2px rgba(255, 87, 34, 0.6);
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+#emoji {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 4em;
+  background-color: rgba(238, 255, 80, 0.513);
+  height: 150px;
+  width: 150px;
+  padding: 40px;
+  border-radius: 15px;
+}
+
+#des{
+  font-size: 2em;
+}
